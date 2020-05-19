@@ -20,7 +20,7 @@ Le lien vers les autres pages s'y trouve.
 - [x] Formulaire d'authentification  - 2.2.3
 - [x] Bannière - 2.2.4
 - [ ] Carte de présentation des molécules - 2.2.5
-    - [ ] Molécules: Cartes - 2.2.5.1
+    - [x] Molécules: Cartes - 2.2.5.1
     - [ ] Organismes: Listes de cartes - 2.2.5.2
 - [ ] Commentaires - 2.2.6
 - [ ] Présentation des ressources - 2.2.7

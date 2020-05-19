@@ -5207,6 +5207,11 @@
     border-top: 0;
   }
   
+  .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+  
   .card-footer {
     padding: 0.75rem 1.25rem;
     background-color: rgba(248, 245, 240, 0.25);
