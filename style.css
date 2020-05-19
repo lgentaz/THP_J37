@@ -5690,11 +5690,20 @@
   
   .jumbotron-fluid {
     background-image: url(https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-size: 100%;
+    background-size: cover;
     color: white;
-    height: auto;
+    height: 500px;
   }
   
+  .jumbotron-fluid2 {
+    background-image: url(https://images.pexels.com/photos/3321793/pexels-photo-3321793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    color: black;
+    font-weight: bold;
+    height: 500px;
+  }
+    
+
   .alert {
     position: relative;
     padding: 0.75rem 1.25rem;
