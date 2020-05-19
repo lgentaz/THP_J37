@@ -17,8 +17,8 @@ Le lien vers les autres pages s'y trouve.
 
 - [x] Navbar - 2.2.1
 - [x] Footer - 2.2.2
-- [x] Formulaire d'authentification  - 2.2.3
-- [x] Bannière - 2.2.4
+- [ ] Formulaire d'authentification  - 2.2.3
+- [ ] Bannière - 2.2.4
 - [ ] Carte de présentation des molécules - 2.2.5
     - [ ] Molécules: Cartes - 2.2.5.1
     - [ ] Organismes: Listes de cartes - 2.2.5.2
