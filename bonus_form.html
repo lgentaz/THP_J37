@@ -72,45 +72,53 @@
     </nav>
   </header>
 
-      <main role="main" class="container">
-        <div class="d-flex align-items-center p-3 my-3 bg-purple rounded box-shadow">
-            <img class="mr-3" src="logo-vertical.png" alt="" width="80" height="80">
-            <div>
-              <h1 class="mb-0">Bienvenue sur la page ressource</h1>
-            </div>
+  <div class="container">
+    <div class="d-flex align-items-center p-3 mt-3 bg-purple rounded box-shadow">
+        <img class="mr-3" src="logo-vertical.png" alt="" width="80" height="80">
+        <div class="">
+          <h4 class="mb-0">EventSharp</h4>
+          <small>new events all day</small>
         </div>
-        <div class="row">
-            <div class="col-md-8">
-                <img class="align-items-center" src="https://images.pexels.com/photos/348523/pexels-photo-348523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap" width=100%>
-            </div>
-            <div class="col-md-4 py-5">
-                <h4 class="text-justify">Ne perdons pas trop de temps en information et en désinformation. <br><br>
-                    Cette colonne a pour but unique de ne représenter qu'une division de 4 dans la grille bootstrap. <br><br>
-                    Et pour moi (et pour vous...) ça veux surement dire beaucoup. <br><br>
-                    Résultat : pourquoi ne pas pensez plutôt aux vacances et rêver de piña colada.<br><br>
-                    Bref, on se ressource...
-                </h4>
-            </div>
-        </div>
+      </div>
 
-        <div class="row my-5">
-          <div class="col-md-12">
-            <h3 class="mb-3"> Allez, quelques liens réseaux sociaux, mais c'est bien parce que c'est toi...</h3>
-            <div class="mb-1 flex-center text-lowercase">
-                <!-- Facebook -->
-                <a href="http://www.facebook.com" class="btn btn-primary mx-5 my-2 text-lowercase"> <i class="fab fa-facebook-f fa-lg white-text mr-3 fa-2x white-text text-lowercase"></i>Facebook </i>
-                </a>
-                <!--Pinterest-->
-                <a href="http://www.pinterest.com" class="btn btn-danger mx-5  my-2 text-lowercase"><i class="fab fa-pinterest fa-lg white-text fa-2x white-text text-lowercase">interest</i>
-                </a>
-            </div>
-          </div>
-        </div>
 
+    <div class="row mb-5">
+        <div class="col-md-6">
+            <form class="row ml-3 my-3">
+                <label class="h5 align-items-center mr-2">Titre</label> 
+                <input class="form-control"></input>
+            </form>
+
+            <form class="row ml-3 my-3">
+                <label class="h5 align-items-center  mr-2">Lieu</label> 
+                <input class="form-control"></input>
+            </form>
+
+            <form class="row ml-3 my-3">
+                <label class="h5 align-items-center mr-2">Date</label> 
+                <input class="form-control"></input>
+            </form>
+
+            <form class="row ml-5 my-3">
+                <label class="h5 align-items-center">Description</label> 
+                <textarea class="form-control ml-3"></textarea>
+            </form>
+
+            <div class="actions ml-3 my-3 text-center">
+                <button class="btn btn-secondary">Enregistrer</button>
+            </div>
+        </div>
+        <div class="bg-transparent text-white col-md-6">
+            <img class="card-img" src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image">
+            <div class="card-img-overlay">
+              <h3 class="card-title text-center">Nouvel évenement</h3>
+            </div>
+        </div>
     </div>
-</main>
+</div>
 
-  <footer class="footer">
+
+<footer class="footer">
     <!-- Footer Elements -->
             <div class="container text-center">
     <!-- Grid row-->
@@ -146,7 +154,8 @@
             <a href="#" class="a-secondary"> ©Bootstrap</a>
             </div>
         
-  </footer> 
+  </footer>   
+      
 </body>
 
 </html>
