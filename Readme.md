@@ -4,6 +4,7 @@
 ## 1. Présentation
 Reprise du projet Eventbrite en front avec la création de molécules spécifiques au projet.
 
+
 ## 2. Spécifications techniques
 ### HTML & CSS
 * Bootswath Sandstone
@@ -19,10 +20,10 @@ Le lien vers les autres pages s'y trouve.
 - [x] Footer - 2.2.2
 - [x] Formulaire d'authentification  - 2.2.3
 - [x] Bannière - 2.2.4
-- [ ] Carte de présentation des molécules - 2.2.5
+- [x] Carte de présentation des molécules - 2.2.5
     - [x] Molécules: Cartes - 2.2.5.1
-    - [ ] Organismes: Listes de cartes - 2.2.5.2
-- [ ] Commentaires - 2.2.6
-- [ ] Présentation des ressources - 2.2.7
+    - [x] Organismes: Listes de cartes - 2.2.5.2
+- [x] Commentaires - 2.2.6
+- [x] Présentation des ressources - 2.2.7
 - [ ] Présentation d'un élément - 2.2.8
 - [ ] Organisme bonus - 2.2.9
