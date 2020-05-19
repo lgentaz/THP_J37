@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <!-- Meta HTML5 -->
+    <meta charset="utf-8">
+    <meta name="description" content="Stylesheet examples for Eventbrite-like">
+    <meta name="author" content="L Gentaz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/a01c346bd1.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <img class="mr-1" src="logo-nav.png" alt="" width="40" height="40"><a href="#" class= "navbar-brand">EventSharp</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a href="#" class= "nav-link">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class= "nav-link">Nouvel Evenement</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mr-3 mt-2 mt-lg-0">
+              <li class="nav-item">
+                <div class="dropdown show">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Exercices THP</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a href="navbar.html" class= "dropdown-item">Nav-bar</a>
+                    <a href="banner.html" class= "dropdown-item">Bannières</a>
+                    <a href="footer.html" class= "dropdown-item">Pied de page</a>
+                    <a href="lists.html" class= "dropdown-item">Cartes et Lists</a>
+                    <a href="comments.html" class= "dropdown-item">Commentaires</a>
+                    <a href="kit_ui.html" class= "dropdown-item">Kit UI</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar-nav mr-3 mt-2 mt-lg-0">
+              <li class="nav-item">
+                <div class="dropdown show">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Log In / Sign Up</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a href="signup_form.html" class= "dropdown-item">Enregistrement</a>
+                    <a href="authentication_form.html" class= "dropdown-item">Connexion</a>
+                    <a href="forgotten_password.html" class= "dropdown-item">Mot de passe oublié</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class= "btn btn-secondary my-2 my-sm-0">Déconnexion</a>
+        </nav>
+    </header>
+
+
+    <div class="container">     
+        <div>
+            <h1 class="section my-5">Colors</h1>
+            <div>
+                <div class=row>
+                    <h4 class="primary box alert-primary p-5 border m-2">Primary</h4>
+                    <h4 class="secondary box alert-secondary p-5 border m-2">Secondary</h4>
+                </div>
+                <div class=row>
+                    <h4 class="danger box alert-danger p-5 border m-2">Danger</h4>
+                    <h4 class="warning box alert-warning p-5 border m-2">Warning</h4>
+                    <h4 class="info box alert-info p-5 border m-2">Info</h4>
+                    <h4 class="success box alert-success p-5 border m-2">Success</h4>
+                </div>
+                <div class=row>
+                    <h4 class="dark box alert-dark text-white p-5 border m-2">Dark</h4>
+                    <h4 class="light box alert-light p-5 border m-2">Light</h4>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="section my-5">Typography</h1>
+            <div>
+                <h1>This is a h1 title .</h1>
+                <h2>This is a h2 title.</h2>
+                <h3>This is a h3 title.</h3>
+                <h4>This is a h4 title.</h4>
+                <p>This is a plain paragraph text.</p>
+                <small>This is the small paragraph.</small>
+                <blockquote>...and this is the quote.</blockquote>
+
+                <ul> This is an unordered list
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+
+                <ol> This is an ordered list
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="section mt-5">Buttons</h1>
+            <h4 class="section my-3">Plain</h4>
+            <div class="row">
+                <button class="btn btn-primary mx-2">Primary</button>
+                <button class="btn btn-secondary mx-2">Secondary</button>
+                <button class="btn btn-danger mx-2">Danger</button>
+                <button class="btn btn-warning mx-2">Warning</button>
+                <button class="btn btn-info mx-2">Info</button>
+                <button class="btn btn-success mx-2">Success</button>
+            </div>
+            <h4 class="section my-3">Outline</h4>
+            <div class="row">
+                <button class="btn btn-outline-primary mx-2">Primary</button>
+                <button class="btn btn-outline-secondary mx-2">Secondary</button>
+                <button class="btn btn-outline-danger mx-2">Danger</button>
+                <button class="btn btn-outline-warning mx-2">Warning</button>
+                <button class="btn btn-outline-info mx-2">Info</button>
+                <button class="btn btn-outline-success mx-2">Success</button>
+            </div>
+            <h4 class="section my-3">Sizing</h4>
+            <div style="margin-left: 20px;">
+                <button class="btn btn-primary btn-lg">Large</button>
+                <button class="btn btn-primary">Regular</button>
+                <button class="btn btn-primary btn-sm">Small</button>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="section mt-5">Iconography</h1>
+            <div class="row">
+                <i class="far fa-map fa-2x m-2"></i>
+                <i class="fas fa-compress-arrows-alt fa-2x  m-2"></i>
+                <i class="fas fa-map-marker-alt fa-2x m-2"></i>
+                <i class="fas fa-parking fa-2x m-2"></i>
+                <i class="fas fa-bus fa-2x m-2"></i>
+                <i class="fas fa-medal fa-2x m-2"></i>
+                <i class="fas fa-camera fa-2x m-2"></i>
+                <i class="fas fa-video fa-2x m-2"></i>
+                <i class="fas fa-child fa-2x m-2"></i>
+                <i class="fas fa-exclamation-triangle fa-2x m-2"></i>
+                <i class="fas fa-cloud-moon fa-2x m-2"></i><br>
+                <i class="far fa-user fa-2x m-2"></i>
+                <i class="fas fa-calendar-alt fa-2x m-2"></i>
+                <i class="far fa-clock fa-2x m-2"></i>
+                <i class="fas fa-check fa-2x m-2"></i>
+                <i class="fas fa-ban fa-2x m-2"></i>
+            </div>
+            <div class="row">
+                <i class="fas fa-key fa-2x m-2"></i>
+                <i class="fas fa-lock fa-2x m-2"></i>
+                <i class="fas fa-lock-open fa-2x m-2"></i>
+                <i class="fas fa-exchange-alt fa-2x m-2"></i>
+                <i class="fas fa-search fa-2x m-2"></i>
+                <i class="fas fa-random fa-2x m-2"></i>
+                <i class="far fa-comment-dots fa-2x m-2"></i>
+                <i class="far fa-edit fa-2x m-2"></i><br>
+                <i class="far fa-envelope fa-2x m-2"></i>
+                <i class="fas fa-envelope-open-text fa-2x m-2"></i>
+                <i class="fas fa-trash fa-2x m-2"></i>
+                <i class="far fa-thumbs-up fa-2x m-2"></i>
+                <i class="far fa-heart fa-2x m-2"></i>
+                <i class="fab fa-facebook-square fa-2x m-2"></i>
+                <i class="fab fa-instagram fa-2x m-2"></i>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="section mt-5">Inputs</h1>
+            <div class="row">
+                <form>
+                    <label for="text">Text</label><br>
+                    <input type="text" placeholder="Text input">
+                </form>
+                <form>
+                    <label for="password">Password</label><br>
+                    <input type="password" placeholder="******">
+                </form>
+            </div>
+            <div class="row">
+                <form>
+                    <input class="input-sucess" type="text" placeholder="Success">
+                </form>
+                <form>
+                    <input class="input-warning" type="text" placeholder="Warning">
+                </form>
+                <form>
+                    <input class="input-error" type="text" placeholder="Error">
+                </form>
+            </div>
+
+            <div class="row">        
+                <form>
+                    <label>Selector</label>        
+                    <select>
+                        <option>one</option>
+                        <option>two</option>
+                    </select>
+                </form>
+            </div>
+
+            <div>
+                <form>
+                    <label>Textarea</label>      
+                    <textarea></textarea>
+                </form>
+            </div>
+
+            <div class="row">
+                <form class = "checkbox">       
+                    <input type="checkbox"> <label>checkbox 1</label><br>
+                    <input type="checkbox"> <label>checkbox 2</label><br>
+                    <input type="checkbox"><label> checkbox 3</label><br>
+                </form>
+                <form class = "radio">     
+                    <input type="radio"> <label>radio 1</label> <br> 
+                    <input type="radio"> <label>radio 2</label> <br>  
+                    <input type="radio"> <label>radio 3</label> <br>  
+                </form>    
+            </div>
+
+        </div>
+
+
+        <div>
+            <h1 class="section">Lists</h1>
+            <div class="my-3 p-3 bg-white rounded box-shadow align-items-center">
+                <div class="card col-12 mt-3 mx-1">
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Item 1</li>
+                    <li class="list-group-item">Item 2</li>
+                    <li class="list-group-item">Item 3</li>
+                    <li class="list-group-item">Item 4</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="footer">
+    <!-- Footer Elements -->
+    <div class="container text-center">
+<!-- Grid row-->
+        <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-12 pt-3">
+                <div class="mb-1 flex-center">
+                    <!-- Facebook -->
+                    <a href="http://www.facebook.com" class="a-secondary"><i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="http://www.twitter.com" class="a-secondary"><i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Google +-->
+                    <a href="https://myaccount.google.com/profile" class="a-secondary"><i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Linkedin -->
+                    <a href="http://www.linkedin.com" class="a-secondary"><i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a href="http://www.instagram.com" class="a-secondary"><i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Pinterest-->
+                    <a href="http://www.pinterest.com" class="a-secondary"><i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                    </a>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center pb-2">© 2020 Copyright:
+        <a href="#" class="a-secondary"> EventSharp.com</a>,
+        <a href="#" class="a-secondary"> ©Bootstrap</a>
+    </div>
+</footer> 
+</body>
+</html>

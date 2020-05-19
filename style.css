@@ -59,8 +59,8 @@
   }
 
   footer {
-    position: absolute fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: fixed;
     width: 100%;
     line-height: 60px;
     background-color:var(--secondary);}
