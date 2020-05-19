@@ -74,7 +74,7 @@
     line-height: 1.5;
     color: #3E3F3A;
     text-align: left;
-    background-color: #fff;
+    background-color: #eee6f3;
   }
   
   [tabindex="-1"]:focus:not(:focus-visible) {
@@ -214,7 +214,10 @@
     align-items: center;
   }
 
-
+  .banner {
+      background-color: hsl(270, 50%, 40%, 50%);
+      border-radius: 20px;
+  }
 
 /******/
 
@@ -5692,7 +5695,7 @@
     background-image: url(https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     color: white;
-    height: 500px;
+    height: 700px;
   }
   
   .jumbotron-fluid2 {
