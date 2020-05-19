@@ -5689,9 +5689,10 @@
   }
   
   .jumbotron-fluid {
-    padding-right: 0;
-    padding-left: 0;
-    border-radius: 0;
+    background-image: url(https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: 100%;
+    color: white;
+    height: auto;
   }
   
   .alert {
